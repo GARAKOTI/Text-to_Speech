@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#00C9FF,#92FE9D);
+    position: relative;
+    
+}
+.container{
+    background-color: transparent;
+    width: 70%;
+    height: 50%;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   box-shadow: 5 5 5 blue;
+
+
+}
+
+.topbar{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(225, 231, 237);
+    text-align: center;
+
+}
+span{
+    color: #63f972;
+    font-size: 45px;
+}
+.underline{
+    height: 5px;
+    width: 220px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 0 0 10px 53.5%;
+}
+.inputs{
+    height: 50%;
+    width: 90%;
+    background-color: rgba(222, 224, 224, 0.546);
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+.inputs textarea{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+.bottom{
+    height: 10%;
+    width: 90%;
+    background-color: transparent;
+    margin:50px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+select{
+    background-color: rgba(222, 224, 224, 0.546);
+    width: 70%;
+    height: 100%;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    appearance: none;
+    background-image: url(./images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position-x: calc(98%);
+    background-position-y: 18px;
+
+}
+
+.lstnBtn{
+    width: 20%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00C9FF;
+    gap: 10px;
+    color: #fff;
+
+}
+.lstnBtn>img{
+    height: 25px;
+}
