@@ -90,8 +90,13 @@ select{
     background-size: 16px;
     background-position-x: calc(98%);
     background-position-y: 18px;
+    padding: 0 10px;
 
 }
+select option {
+    background-color: rgba(26, 190, 190, 0.734); /* Replace with your desired color */
+    color: #fff; /* Optional: Change the text color */
+  }
 
 .lstnBtn{
     width: 20%;
